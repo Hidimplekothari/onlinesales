@@ -1,0 +1,22 @@
+
+MathExpressionEvaluator --
+1.using the Java HttpClient class to send HTTP requests to a web API that evaluates mathematical expressions.
+2.using the math.js API, which can evaluate various mathematical expressions.
+3.evaluating each of the expression using the math.js API
+4.This implementation reads expressions from the console until "end" is provided as an expression.
+5.For each expression,it sends an HTTP GET request to the math.js API, passing the expression as a query parameter.
+6.The API evaluates the expression and returns the result in the response body.
+7.The Test class test the expressions provided top the input stream.
+
+
+EventGenerator --
+1.The EventGenerator class takes a map of outcomes and their respective probabilities in its constructor.
+2.The generateOutcome() method generates a single outcome based on the given probabilities.
+3.It first calculates the total probability by summing up all the probabilities.
+Then, it generates a random number between 1 and the total probability.
+4.By iterating over the outcomes and their probabilities,
+it finds the outcome for which the cumulative probability exceeds the random number.
+5.In the main method, an example usage is demonstrated for rolling a biased six-faced dice.
+6.It creates an instance of EventGenerator with the provided outcome map,
+it then generates the specified number of occurrences and counts the frequency of each outcome.
+7.Finally, it prints the outcome and its corresponding count.

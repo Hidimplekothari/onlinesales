@@ -1,4 +1,4 @@
-# onlinesales
+# onlinesales Coding Ninjas Assignment 
 assignment
 Task-1
 Simulation of an Event that Follows Given Biasness
@@ -21,7 +21,34 @@ On triggering the event 1000 times, Head appeared 332 times and Tail 668 times w
 This is just one of the possibilities.
 
 
+**Solution - Refer EventGenerator class**
 
+
+
+
+Task-2
+Evaluate multiple mathematical expressions at once using a Web API
+
+Problem Statement
+Write a program that accepts multiple mathematical expressions and evaluates each of them using any public Web API available. The program should display the result of each expression on the console.
+Rules
+No expressions should be evaluated in the code. All evaluations should be using the Web API.
+You can assume different expressions that are compatible with the API you choose. 
+Example: Some API might use ^ operator for power some might use pow()
+Example
+Input (every line is an expression, evaluate when “end” is provided as an expression)
+2 * 4 * 4
+5 / (7 - 5)
+sqrt(5^2 - 4^2)
+sqrt(-3^2 - 4^2)
+end
+Output
+2 * 4 * 4 => 32
+5 / (7 - 5) => 2.5
+sqrt(5^2 - 4^2) => 3
+sqrt(-3^2 - 4^2) = 5i
+
+**Solution - Refer MathExpressionEvaluator class**
 
 Coding Guidelines
 You can choose any programming language: Java, C++, Python, Node.js, etc.
